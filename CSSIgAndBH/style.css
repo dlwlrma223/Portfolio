@@ -1,0 +1,96 @@
+.login {
+  border: 1px gray solid;
+  padding-right: 0px;
+  height: 370px;
+  width: 355px;
+}
+
+.fb img {
+  width: 20px;
+  height: 20px;
+}
+.login p {
+  font-size: 35px;
+}
+
+.login {
+  text-align: center;
+}
+
+.forgot {
+  font-size: 10px;
+}
+#ac,
+#pw {
+  width: 300px;
+  height: 30px;
+  margin: 2px;
+}
+
+.botton {
+  background-color: #3578e5;
+  margin: 15px 30px;
+  height: 35px;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fb {
+  margin: 10px;
+}
+
+.login2 {
+  border: 1px gray solid;
+  padding-right: 0px;
+  width: 355px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.end {
+  border: 1px white solid;
+  padding-right: 0px;
+  width: 355px;
+  text-align: center;
+}
+
+.app img {
+  width: 150px;
+  height: 50px;
+}
+
+.all {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.photo img {
+  height: 550px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 10px;
+  margin-top: 60px;
+}
+
+.last {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 10px;
+}
+
+#lan {
+  border: 0;
+  background: transparent;
+  margin: 0px;
+}

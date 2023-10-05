@@ -1,0 +1,10 @@
+.top-bar {
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+}
+
+.bar {
+  margin-right: 50px;
+}

@@ -1,0 +1,145 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.post {
+  display: flex;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 225px 550px 225px;
+  margin: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    ". one ."
+    ". two two1"
+    ". three three"
+    ". three1 ."
+    "three2 three2 three2"
+    ". three3 ."
+    "four four four"
+    ". four1 ."
+    "five five1 ."
+    ". five2 ."
+    ". six six1"
+    "seven seven seven"
+    ". seven1 ."
+    "seven2 seven2 seven2"
+    ". eight ."
+    "eight1 eight1 eight1";
+}
+
+.one {
+  grid-area: one;
+}
+
+.two {
+  grid-area: two;
+}
+
+.two1 {
+  grid-area: two1;
+  padding-top: 10px;
+  margin-left: 50px;
+}
+
+.two2 {
+  grid-area: two2;
+}
+
+.three {
+  grid-area: three;
+}
+
+.three1 {
+  grid-area: three1;
+}
+
+.three2 {
+  grid-area: three2;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.three2 img {
+  width: 100%;
+  padding: 0px;
+  max-width: 100%;
+}
+.three3 {
+  grid-area: three3;
+}
+
+.four {
+  grid-area: four;
+  display: flex;
+  justify-content: center;
+}
+
+.four1 {
+  grid-area: four1;
+}
+
+.five {
+  margin-right: 50px;
+  grid-area: five;
+  word-spacing: 5px;
+  line-height: 30px;
+  text-align: right;
+}
+
+.five1 {
+  grid-area: five1;
+}
+
+.five2 {
+  grid-area: five2;
+}
+
+.six {
+  grid-area: six;
+}
+
+.six1 {
+  grid-area: six1;
+  margin-left: 50px;
+}
+
+.six1 img {
+  width: 150px;
+  height: 150px;
+}
+.six2 {
+  grid-area: six2;
+}
+.seven {
+  grid-area: seven;
+}
+
+.seven img {
+  max-width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.seven1 {
+  grid-area: seven1;
+}
+
+.seven2 {
+  grid-area: seven2;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.eight {
+  grid-area: eight;
+}
+
+.eight1 {
+  grid-area: eight1;
+  display: flex;
+  justify-content: center;
+}

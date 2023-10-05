@@ -1,0 +1,27 @@
+.product {
+  border: 3px solid red;
+  margin: 20px 0px;
+}
+/* 可以特定給compontent 設置CSS (建議用)*/
+
+.productPhoto {
+  width: 350px;
+  height: 250px;
+}
+
+.all {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.text {
+  font-size: large;
+  margin: 30px;
+}
+
+.click {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
