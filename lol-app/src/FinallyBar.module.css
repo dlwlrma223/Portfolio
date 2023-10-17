@@ -1,0 +1,7 @@
+.all {
+  background-color: rgb(81, 95, 95);
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 15px;
+}
